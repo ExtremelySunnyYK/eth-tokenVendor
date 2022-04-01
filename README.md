@@ -1,7 +1,8 @@
-# 🏗 scaffold-eth | 🏰 BuidlGuidl
+# 🏗 : 🏵 Token Vendor 🤖
 
-## 🚩 Challenge 2: 🏵 Token Vendor 🤖
 
+Frontend address : 
+Smart Contract Address : 
 
 > 🤖 Smart contracts are kind of like "always on" *vending machines* that **anyone** can access. Let's make a decentralized, digital currency. Then, let's build an unstoppable vending machine that will buy and sell the currency. We'll learn about the "approve" pattern for ERC20s and how contract to contract interactions work.  
 
@@ -19,7 +20,7 @@
 
 ---
 
-### Checkpoint 0: 📦 install 📚
+### 0: 📦 install 📚
 
 ```bash
 git clone https://github.com/scaffold-eth/scaffold-eth-challenges challenge-2-token-vendor
@@ -32,7 +33,7 @@ yarn install
 
 ---
 
-### Checkpoint 1: 🔭 Environment 📺
+### 1: 🔭 Environment 📺
 
 You'll have three terminals up for:
 
@@ -50,7 +51,7 @@ You'll have three terminals up for:
 
 ---
 
-### Checkpoint 2: 🏵Your Token 💵
+### 2: 🏵Your Token 💵
 
 > 👩‍💻 Edit `YourToken.sol` to inherit the **ERC20** token standard from OpenZeppelin
 
@@ -69,7 +70,7 @@ You'll have three terminals up for:
 
 ---
 
-### Checkpoint 3: ⚖️ Vendor 🤖
+### 3: ⚖️ Vendor 🤖
 
 > 👩‍💻 Edit the `Vendor.sol` contract with a **payable** `buyTokens()` function
 
@@ -139,7 +140,7 @@ await vendor.transferOwnership("**YOUR FRONTEND ADDRESS**");
 
 ---
 
-### Checkpoint 4: 🤔 Vendor Buyback 🤯
+### 4: 🤔 Vendor Buyback 🤯
 
 👩‍🏫 The hardest part of this challenge is to build your `Vendor` to buy the tokens back.
 
@@ -170,11 +171,11 @@ await vendor.transferOwnership("**YOUR FRONTEND ADDRESS**");
 - [ ] It would be a good idea to display Sell Token Events.  Create the `event` and `emit` it in your `Vendor.sol` and look at `buyTokensEvents` in your `App.jsx` for an example of how to update your frontend.
 
 #### ⚠️ Test it!
--  Now is a good time to run `yarn test` to run the automated testing function. It will test that you hit the core checkpoints.  You are looking for all green checkmarks and passing tests!
+-  Now is a good time to run `yarn test` to run the automated testing function. It will test that you hit the core .  You are looking for all green checkmarks and passing tests!
 
 ----
 
-### Checkpoint 5: 💾 Deploy it! 🛰
+### 5: 💾 Deploy it! 🛰
 
 📡 Edit the `defaultNetwork` in `packages/hardhat/hardhat.config.js`, as well as `targetNetwork` in `packages/react-app/src/App.jsx`, to [your choice of public EVM networks](https://ethereum.org/en/developers/docs/networks/)
 
@@ -189,7 +190,7 @@ await vendor.transferOwnership("**YOUR FRONTEND ADDRESS**");
 🔬 Inspect the block explorer for the network you deployed to... make sure your contract is there.
 
 ---
-### Checkpoint 6: 🚢 Ship it! 🚁
+### 6: 🚢 Ship it! 🚁
 
 📦 Run `yarn build` to package up your frontend.
 
@@ -202,7 +203,7 @@ await vendor.transferOwnership("**YOUR FRONTEND ADDRESS**");
 🚔 Traffic to your url might break the [Infura](https://infura.io/) rate limit, edit your key: `constants.js` in `packages/ract-app/src`.
 
 ---
-### Checkpoint 7: 📜 Contract Verification
+### 7: 📜 Contract Verification
 
 Update the `api-key` in `packages/hardhat/package.json`. You can get your key [here](https://etherscan.io/myapikey).
 

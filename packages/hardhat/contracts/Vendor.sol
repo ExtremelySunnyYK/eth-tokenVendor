@@ -31,14 +31,14 @@ contract Vendor is Ownable {
     require(sent, "Transcation Failed");
 
     //emit Event
-    BuyTokens(msg.sender, msg.value, amountToBuy);
+    emit BuyTokens(msg.sender, msg.value, amountToBuy);
 
     return amountToBuy;
 
 
   }
   // withdraw() function that lets the owner withdraw ETH
-  function withdraw() public onlyOwner(){
+  function withdraw() public payable onlyOwner(){
     // check current eth balance
     uint256 ownerBalance = address(this).balance;
     require(ownerBalance > 0, "No ETH left for withdrawal");
