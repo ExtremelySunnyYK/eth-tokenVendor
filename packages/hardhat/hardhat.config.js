@@ -91,6 +91,8 @@ module.exports = {
     goerli: {
       url: "https://goerli.infura.io/v3/84d6743a469e4a89b901399659b89149", // <---- YOUR INFURA ID! (or it won't work)
       //      url: "https://speedy-nodes-nyc.moralis.io/XXXXXXXXXXXXXXXXXXXXXXXXX/eth/goerli", // <---- YOUR MORALIS ID! (not limited to infura)
+      gas: 21000,
+      gasPrice: 8000000,
       accounts: {
         mnemonic: mnemonic(),
       },
