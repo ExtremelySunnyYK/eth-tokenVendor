@@ -1,11 +1,11 @@
 # 🏗 : 🏵 Token Vendor 🤖
 
 
-Frontend address : web3-token-vendor.sh
+Frontend address : <https://web3-token-vendor.sh>
 
 Smart Contract Address : 
 
-- Token Contract : https://goerli.etherscan.io/address/0xc7682E991B6558c2EC89B130F8fe4531F905fF58#code
+- Token Contract : <https://goerli.etherscan.io/address/0xc7682E991B6558c2EC89B130F8fe4531F905fF58#code>
 - Vendor : 
 
 
