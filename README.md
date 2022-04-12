@@ -1,7 +1,7 @@
 # 🏗 : 🏵 Token Vendor 🤖
 
 
-Frontend address : <https://web3-token-vendor.sh>
+Frontend address : <https://woozy-cable.surge.sh/>
 
 Smart Contract Address : 
 
